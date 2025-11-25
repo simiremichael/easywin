@@ -1,0 +1,99 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+}
+
+.game-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.game-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-header {
+  background: linear-gradient(45deg, #4CAF50, #45a049);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.game-icon {
+  font-size: 24px;
+}
+
+.card-header h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.game-image {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.trophy {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.description {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.prize-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.prize {
+  color: #4CAF50;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.players {
+  color: #888;
+  font-size: 12px;
+}
+
+.play-button {
+  width: 100%;
+  background: linear-gradient(45deg, #FF6B6B, #FF5252);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.play-button:hover {
+  background: linear-gradient(45deg, #FF5252, #FF4444);
+  transform: translateY(-2px);
+}
