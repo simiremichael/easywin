@@ -18,12 +18,14 @@ A football-themed scratch card game built with React, TypeScript, and Vite.
 ## Installation
 
 1. Clone the repository:
+
 ```bash
-git clone <repository-url>
+git https://github.com/simiremichael/easywin
 cd easywin
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
@@ -31,11 +33,13 @@ npm install
 ## Running Locally
 
 1. Start the development server:
+
 ```bash
 npm run dev
 ```
 
 2. Open your browser and navigate to:
+
 ```
 http://localhost:5173
 ```
